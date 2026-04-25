@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="FunctionalDotNet.Tests/FunctionalDotNet.Tests.csproj" />
+  <Project Path="FunctionalDotNet/FunctionalDotNet.csproj" />
+</Solution>

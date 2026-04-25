@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PackageId>FunctionalDotNet</PackageId>
+    <Version>0.1.0-alpha</Version>
+    <Authors>NGDeveloper125</Authors>
+    <Company>NGDeveloper125</Company>
+    <Description>A functional programming toolkit for C# — Option, Either, Validation, function composition, and the building blocks for writing C# in a functional style without depending on a third-party library.</Description>
+    <PackageTags>functional;fp;option;either;validation;monad;csharp</PackageTags>
+    <PackageProjectUrl>https://github.com/NGDeveloper125/FunctionalDotNet</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/NGDeveloper125/FunctionalDotNet</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+</Project>
