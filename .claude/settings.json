@@ -1,7 +1,9 @@
 {
   "permissions": {
     "allow": [
-      "Bash(dotnet --list-sdks)"
+      "Bash(dotnet --list-sdks)",
+      "Bash(dotnet run *)",
+      "PowerShell($out = netsh wlan show interfaces; Write-Output \"EXITCODE=$LASTEXITCODE\"; Write-Output \"---OUTPUT---\"; $out)"
     ]
   }
 }
